@@ -40,7 +40,7 @@ public class TestClass {
         userName.sendKeys("Yogesh Adsare");
 
         MobileElement emaiId = (MobileElement) driver.findElement(By.id("com.ooyala.android.analytics:id/emailID"));
-        emaiId.sendKeys("yogesh.adsare@forgeahead.io");
+        emaiId.sendKeys("yogeshadsaredemo@gmail.com");
 
         MobileElement hlsRadioButton = (MobileElement) driver.findElement(By.id("com.ooyala.android.analytics:id/radioHLSAssets"));
         hlsRadioButton.click();
